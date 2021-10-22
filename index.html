@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 11</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div>homework</div>
+		</header>
+
+		<main class="main">
+			<div class="maket">
+				<div class="item">
+					<img src="img/jpg/11.jpg" alt="fon">
+				</div>
+
+				<div class="who-we-are">
+
+					<div class="who-we-are__title">
+						<div class="who-we-are__subtitle">who we are</div>
+						<div class="who-we-are__item">
+							Nemo enim ipsam voluptatem quia voluptas in proident
+						</div>
+					</div>
+					<div class="who-we-are__text">
+						Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+						aliquid
+						ex ea commodi
+						consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+						consequatur, vel
+						illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+					</div>
+					<div class="who-we-are__img">
+						<img src="img/jpg/Image.png" alt="dog">
+					</div>
+				</div>
+			</div>
+
+			<div class="practic">
+				<a href=#static class="link__static"> CSS свойство position: static</a>
+				<a href=#relative class="link__relative">CSS свойство position: relative</a>
+				<a href=#absolute class="link__absolute">CSS свойство position: absolute </a>
+				<a href=#fixed class="link__fixed">CSS свойство position: fixed</a>
+
+				<div class="practic__static" id="static">
+					<div>Элементы отображаются как обычно. Использование свойств left, top, right, bottom и z-index не
+						приводит к каким-либо
+						результатам. </div>
+					<div>Элементы отображаются как обычно. Использование свойств left, top, right, bottom и z-index не
+						приводит к каким-либо
+						результатам. </div>
+					<div>Элементы отображаются как обычно. Использование свойств left, top, right, bottom и z-index не
+						приводит к каким-либо
+						результатам. </div>
+				</div>
+				<div class="practic__relative" id="relative">
+					<div class="practic__relative-top-left">
+						<div>Положение элемента устанавливается относительно его исходного положения в коде. Добавление
+							свойств
+							left, top, right и
+							bottom изменяет позицию элемента и сдвигает его в ту или иную сторону от первоначального
+							расположения.
+						</div>
+						<div>Положение элемента устанавливается относительно его исходного положения в коде. Добавление
+							свойств
+							left, top, right и
+							bottom изменяет позицию элемента и сдвигает его в ту или иную сторону от первоначального
+							расположения.
+						</div>
+						<div>Положение элемента устанавливается относительно его исходного положения в коде. Добавление
+							свойств
+							left, top, right и
+							bottom изменяет позицию элемента и сдвигает его в ту или иную сторону от первоначального
+							расположения.
+						</div>
+					</div>
+					<div class="practic__relative-z-index">
+						<div>Положение элемента устанавливается относительно его исходного положения в коде. Добавление
+							свойств left, top, right и
+							bottom изменяет позицию элемента и сдвигает его в ту или иную сторону от первоначального
+							расположения.</div>
+						<div>Положение элемента устанавливается относительно его исходного положения в коде. Добавление
+							свойств left, top, right
+							и bottom изменяет позицию элемента и сдвигает его в ту или иную сторону от первоначального
+							расположения.</div>
+						<div>Положение элемента устанавливается относительно его исходного положения в коде. Добавление
+							свойств left, top, right
+							и bottom изменяет позицию элемента и сдвигает его в ту или иную сторону от первоначального
+							расположения.</div>
+					</div>
+				</div>
+
+				<div class="practic__absolute" id="absolute">
+					
+
+
+					<div class="practic__absolute-t-l">Элемент якобы вырывается из кода и зависайт в воздухе. Он перестает
+						влиять на остальные элементы. Добавление свойств
+						left, top, right и bottom изменяет позицию элемента и сдвигает его в ту или иную сторону относительно
+						родителя у колого
+						задан параметр position: relative; Если такого нет то элемент позиционируется относительно окна
+						браузера.</div>
+					<div class="practic__absolute-t-l">Элемент якобы вырывается из кода и зависайт в воздухе. Он перестает
+						влиять на
+						остальные элементы. Добавление свойств
+						left, top, right и bottom изменяет позицию элемента и сдвигает его в ту или иную сторону относительно
+						родителя у
+						колого
+						задан параметр position: relative; Если такого нет то элемент позиционируется относительно окна
+						браузера.</div>
+					<div class="practic__absolute-t-l">Элемент якобы вырывается из кода и зависайт в воздухе. Он перестает
+						влиять на
+						остальные элементы. Добавление свойств
+						left, top, right и bottom изменяет позицию элемента и сдвигает его в ту или иную сторону относительно
+						родителя у
+						колого
+						задан параметр position: relative; Если такого нет то элемент позиционируется относительно окна
+						браузера.</div>
+				</div>
+				<div class="practice__fixed" id="fixed">
+					<div>Homework 11</div>
+				</div>
+				<div class="practic__sticky">
+					<div>Это гибридное сочетание значений static и fixed. Изначально єлемент ведет себя как static но после
+						того как скролл
+						доходит до его границы он становиться fixed и прилипает к указанной позиции top или bottom.
+					</div>
+					<div>Это гибридное сочетание значений static и fixed. Изначально єлемент ведет себя как static но после
+						того как скролл
+						доходит до его границы он становиться fixed и прилипает к указанной позиции top или bottom.Это
+						гибридное сочетание значений static и fixed. Изначально єлемент ведет себя как static но после
+						того как скролл
+						доходит до его границы он становиться fixed и прилипает к указанной позиции top или bottom.Это
+						гибридное сочетание значений static и fixed. Изначально єлемент ведет себя как static но после
+						того как скролл
+						доходит до его границы он становиться fixed и прилипает к указанной позиции top или bottom.Это
+						гибридное сочетание значений static и fixed. Изначально єлемент ведет себя как static но после
+						того как скролл
+						доходит до его границы он становиться fixed и прилипает к указанной позиции top или bottom.Это
+						гибридное сочетание значений static и fixed. Изначально єлемент ведет себя как static но после
+						того как скролл
+						доходит до его границы он становиться fixed и прилипает к указанной позиции top или bottom.
+					</div>
+					<div>Это гибридное сочетание значений static и fixed. Изначально єлемент ведет себя как static но после
+						того как скролл
+						доходит до его границы он становиться fixed и прилипает к указанной позиции top или bottom.
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<div>Lesson 11</div>
+		</footer>
+	</div>
+</body>
+
+</html>
