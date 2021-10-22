@@ -82,7 +82,8 @@ body {
 .who-we-are {
 	position: relative;
 	top: -100px;
-	margin: 0px 210px 50px 210px;
+	width: 70%;
+	margin: 0px auto 50px auto;
 	padding: 100px 210px 0px 210px;
 	background: #5d62b5;
 	border-radius: 40px;
@@ -127,9 +128,13 @@ body {
 	color: #f5f5f5;
 }
 .who-we-are__img {
+	display: inline-block;
 	border-radius: 30px;
 	position: relative;
 	bottom: -100px;
+}
+.who-we-are__img img {
+	max-width: 780px;
 }
 .practic {
 	font-family: "roboto";
